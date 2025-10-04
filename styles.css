@@ -1980,7 +1980,8 @@ section {
 }
 
 @media (max-width: 767px) {
-    .menu-grid {
+    .menu-grid,
+    .pricelist .menu-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: var(--spacing-md, 1rem);
